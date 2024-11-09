@@ -448,9 +448,9 @@ Sure, here’s a revised version of the submission guidelines:
 
 ## **Deadline:**
 
-- **60 Marks:** [Insert Date, 11:59 PM]
-- **50 Marks:** [Insert Date, 11:59 PM]
-- After **[Insert Date]**, 30 Marks Deadline.
+- **60 Marks:** [13 Nov, 2024, 11:59 PM]
+- **50 Marks:** [14 Nov, 2024, 11:59 PM]
+- After **14 Nov, 2024**, 30 Marks Deadline.
 
 ---
 
