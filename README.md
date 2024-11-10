@@ -381,6 +381,8 @@ When an error occurs in the system, the following structure will be used in the 
   - Calculate overdue books based on the due date.
   - Provide a list of overdue items with borrower details.
 
+- **Return Policy:** All borrowed books must be returned within 14 days from the borrow date.
+
 - **Response**:
   - If overdue books exist:
     ```json
