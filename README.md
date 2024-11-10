@@ -1,7 +1,7 @@
 # **Assignment 8: Library Management System API**
 
 **Objective:**  
-Develop a backend API for a Library Management System that allows library staff and members to manage books, authors, memberships, and borrowing activities. The API will be structured around CRUD operations for books, authors, members, and borrow records, with additional endpoints for borrowing and returning books. You will use UUID for unique identification in all tables.
+Develop a backend API for a Library Management System that allows library staff and members to manage books, memberships, and borrowing activities. The API will be structured around CRUD operations for books, members, and borrow records, with additional endpoints for borrowing and returning books. You will use UUID for unique identification in all tables.
 
 ---
 
@@ -28,16 +28,9 @@ Use Prisma ORM to design the following schema, ensuring each table uses UUID as 
 | `totalCopies`    | Int       | Total copies of the book in the library          |
 | `availableCopies`| Int       | Number of copies currently available for borrowing |
 
-### **2. Author Table (Optional Table)**
-| Field            | Type      | Description                                      |
-|------------------|-----------|--------------------------------------------------|
-| `authorId`       | UUID      | Unique identifier for each author                |
-| `name`           | String    | Name of the author                               |
-| `bio`            | Text      | Short biography of the author                    |
-| `dateOfBirth`    | DateTime  | Birth date of the author                         |
 
 
-### **3. Member Table**
+### **2. Member Table**
 | Field            | Type      | Description                                      |
 |------------------|-----------|--------------------------------------------------|
 | `memberId`       | UUID      | Unique identifier for each member                |
@@ -47,7 +40,7 @@ Use Prisma ORM to design the following schema, ensuring each table uses UUID as 
 | `membershipDate` | DateTime  | Date the member joined the library               |
 
 
-### **4. BorrowRecord Table**
+### **3. BorrowRecord Table**
 | Field            | Type      | Description                                      |
 |------------------|-----------|--------------------------------------------------|
 | `borrowId`       | UUID      | Unique identifier for each borrow record         |
