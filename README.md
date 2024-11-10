@@ -28,7 +28,7 @@ Use Prisma ORM to design the following schema, ensuring each table uses UUID as 
 | `totalCopies`    | Int       | Total copies of the book in the library          |
 | `availableCopies`| Int       | Number of copies currently available for borrowing |
 
-### **2. Author Table**
+### **2. Author Table (Optional Table)**
 | Field            | Type      | Description                                      |
 |------------------|-----------|--------------------------------------------------|
 | `authorId`       | UUID      | Unique identifier for each author                |
