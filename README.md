@@ -375,6 +375,8 @@ When an error occurs in the system, the following structure will be used in the 
 
 ### **2. Overdue Borrow List**
 
+- Endpoint: GET /api/borrow/overdue
+  
 - **Description**: Track overdue borrowed books. A list of books that are past the due date for return.
   
 - **Functionality**: 
