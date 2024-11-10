@@ -414,10 +414,6 @@ When an error occurs in the system, the following structure will be used in the 
 
 ---
 
-Sure, here’s a revised version of the submission guidelines:
-
----
-
 ## **Submission Guidelines:**
 
 - **Codebase:** Ensure your codebase is clean, well-organized, and well-documented. Every key section of your code should have comments explaining its functionality clearly.
