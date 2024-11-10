@@ -375,7 +375,7 @@ When an error occurs in the system, the following structure will be used in the 
 
 ### **2. Overdue Borrow List**
 
-- **Description**: Track overdue borrowed books. Admins can view a list of books that are past the due date for return.
+- **Description**: Track overdue borrowed books. A list of books that are past the due date for return.
   
 - **Functionality**: 
   - Calculate overdue books based on the due date.
